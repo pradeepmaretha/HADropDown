@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol HADropDownDelegate: class {
+@objc protocol HADropDownDelegate: class {
     func didSelectItem(dropDown: HADropDown, at index: Int)  
     func didShow(dropDown: HADropDown) 
     func didHide(dropDown: HADropDown) 
